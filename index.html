@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Вебстудия</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -15,28 +21,34 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href=""><span>Web</span>Studio</a>
+    <header class="header">
+      <nav class="navigation">
+        <a class="logo-link link" href=""><span class="web">Web</span>Studio</a>
 
-        <ul>
-          <li>
-            <a href="">Студия</a>
+        <ul class="navigation-list list">
+          <li class="navigation-item">
+            <a class="navigation-link link" href="">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
+          <li class="navigation-item">
+            <a class="navigation-link link" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
-          <li>
-            <a href="">Контакты</a>
+          <li class="navigation-item">
+            <a class="navigation-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="mail-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="tel-link link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
@@ -54,7 +66,7 @@
       <section>
         <h2>Преимущества</h2>
         <!--спрячется после стилизации-->
-        <ul>
+        <ul class="list">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -88,7 +100,7 @@
       <!--Вид занятий-->
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/what-we-do/comp.jpg"
@@ -118,7 +130,7 @@
       <!--Состав команды-->
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/our-team/igor.jpg"
@@ -165,11 +177,12 @@
     <footer>
       <h2>Контакты</h2>
       <!--спрячется после стилизации-->
-      <a href="">WebStudio</a>
-      <address>
-        <ul>
+      <a class="link" href="">WebStudio</a>
+      <address class="address">
+        <ul class="list">
           <li>
             <a
+              class="link"
               href="https://goo.gl/maps/RYazmXWVpMXztePi6"
               target="_blank"
               rel="noopener noreferrer"
@@ -177,9 +190,11 @@
             >
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="link" href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
