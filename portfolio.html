@@ -49,18 +49,28 @@
       </ul>
     </header>
     <main>
-      <section>
-        <h1>Портфолио</h1>
+      <section class="nav-btn">
+        <h1 class="hiden-title">Портфолио</h1>
         <!-- спрячется после стилизации -->
-        <ul class="list">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="nav-btn-list list">
+          <li class="nav-btn-list-item">
+            <button type="button" class="nav-btn-list-but">Все</button>
+          </li>
+          <li class="navigation-btn-list-item">
+            <button type="button" class="nav-btn-list-but">Веб-сайты</button>
+          </li>
+          <li class="navigation-btn-list-item">
+            <button type="button" class="nav-btn-list-but">Приложения</button>
+          </li>
+          <li class="navigation-btn-list-item">
+            <button type="button" class="nav-btn-list-but">Дизайн</button>
+          </li>
+          <li class="navigation-btn-list-item">
+            <button type="button" class="nav-btn-list-but">Маркетинг</button>
+          </li>
         </ul>
-        <h2>Элементы портфолио</h2>
-        <ul class="list">
+        <h2 class="hiden-title">Элементы портфолио</h2>
+        <ul class="elements-list list">
           <li>
             <img
               src="./portfolio-images/tehno.jpg"
@@ -83,55 +93,34 @@
             <p>Дизайн</p>
           </li>
           <li>
-            <img
-              src="./portfolio-images/seafood.jpg"
-              alt="написано название ресторана на фоне рыбы"
-              width="370"
-              height="294"
-            />
+            <img src="./portfolio-images/seafood.jpg" alt="логотип ресторана" />
             <h3>Ресторан Seafood</h3>
             <p>Приложение</p>
           </li>
           <li>
-            <img
-              src="./portfolio-images/prime.jpg"
-              alt="нарисованы наушники"
-              width="370"
-              height="294"
-            />
+            <img src="./portfolio-images/prime.jpg" alt="фото наушников" />
             <h3>Проект Prime</h3>
             <p>Маркетинг</p>
           </li>
           <li>
-            <img
-              src="./portfolio-images/boxes.jpg"
-              alt="две картонных коробки"
-              width="370"
-              height="294"
-            />
+            <img src="./portfolio-images/boxes.jpg" alt="лежат две коробки" />
             <h3>Проект Boxes</h3>
             <p>Приложение</p>
           </li>
           <li>
             <img
               src="./portfolio-images/inspiration.jpg"
-              alt="стоит монитор с черным экраном"
-              width="370"
-              height="294"
+              alt="стоит монитоор"
             />
             <h3 lang="en">Inspiration has no Borders</h3>
             <p>Веб-сайт</p>
           </li>
           <li>
-            <img
-              src="./portfolio-images/limited.jpg"
-              alt="лежит книга с рисунками"
-              width="370"
-              height="294"
-            />
+            <img src="./portfolio-images/limited.jpg" alt="книга" />
             <h3>Издание Limited Edition</h3>
             <p>Дизайн</p>
           </li>
+
           <li>
             <img
               src="./portfolio-images/lab.jpg"
@@ -156,25 +145,29 @@
       </section>
     </main>
     <footer>
-      <h2>Контакты</h2>
+      <h2 class="hiden-title">Контакты</h2>
       <!--спрячется после стилизации-->
-      <a class="link" href="">WebStudio</a>
+      <a class="footer-logo link" href=""><span class="web">Web</span>Studio</a>
       <address class="address">
-        <ul class="list">
-          <li>
+        <ul class="footer-list list">
+          <li class="footer-list-item">
             <a
-              class="link"
+              class="footer-list-link link"
               href="https://goo.gl/maps/RYazmXWVpMXztePi6"
               target="_blank"
               rel="noopener noreferrer"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li>
-            <a class="link" href="mailto:info@example.com">info@example.com</a>
+          <li class="footer-list-item">
+            <a class="footer-list-link link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
           <li>
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="footer-list-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>

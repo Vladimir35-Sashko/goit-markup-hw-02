@@ -173,3 +173,17 @@ body {
 .footer-list-link:focus {
   color: #ffffff;
 }
+.nav-btn-list-but {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.nav-btn-list-but:hover,
+.nav-btn-list-but:focus {
+  background: var(--accent-color);
+  color: #ffffff;
+}
