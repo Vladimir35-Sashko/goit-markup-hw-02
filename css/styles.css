@@ -15,6 +15,10 @@ body {
 .address {
   font-style: normal;
 }
+.navigation-list .link.current {
+  color: var(--accent-color);
+}
+/* =======================ШАПКА============================ */
 .web {
   font-family: var(--secondary-font);
 
@@ -73,6 +77,9 @@ body {
 .tel-link:focus {
   color: var(--accent-color);
 }
+/* ============================КОНЕЦ ШАПКИ========================== */
+
+/* ===========================ГЛАВНАЯ СТУДИЯ=============================== */
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -149,6 +156,9 @@ body {
 
   color: #757575;
 }
+/* =======================КОНЕЦ ГЛАВНОЙ СТУДИИ================== */
+
+/* ===============================ФУТЕР========================== */
 .footer-logo {
   font-family: var(--secondary-font);
 
@@ -173,6 +183,9 @@ body {
 .footer-list-link:focus {
   color: #ffffff;
 }
+/* ======================КОНЕЦ ФУТЕРА===================== */
+
+/* =========================ГЛАВНАЯ ПОРТФОЛИО================== */
 .nav-btn-list-but {
   font-weight: 500;
   font-size: 16px;
@@ -187,3 +200,22 @@ body {
   background: var(--accent-color);
   color: #ffffff;
 }
+.elements-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.elements-list-progects {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* ======================КОНЕЦ ГЛАВНОЙ ПОРТФОЛИО=============== */
